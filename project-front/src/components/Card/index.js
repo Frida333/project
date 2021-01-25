@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 
 const Card = ({ article }) => {
@@ -13,15 +12,16 @@ const Card = ({ article }) => {
           <img
             src={imageUrl}
             alt={article.image.url}
-            height="100"
+            height="200"
           />
         </div>
         <div className="uk-card-body">
-          <p id="category" className="uk-text-uppercase">
-            {article.category.name}
-          </p>
+
           <p id="title" className="uk-text-large">
             {article.title}
+          </p>
+          <p id="category" className="uk-text-uppercase">
+            {article.category.name}
           </p>
         </div>
       </div>

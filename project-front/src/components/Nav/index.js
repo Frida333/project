@@ -15,7 +15,7 @@ const Nav = () => {
                 <div>
                   <ul>
                     <li>
-                      <Link to="/">Strapi Blog</Link>
+                      <Link to="/">Hem</Link>
                     </li>
                   </ul>
                 </div>

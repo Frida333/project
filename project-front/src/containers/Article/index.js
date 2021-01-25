@@ -24,7 +24,7 @@ const Article = () => {
               id="banner"
 
               src={imageUrl}
-              srcset={imageUrl}
+              srcSet={imageUrl}
               data-uk-img
             />
 

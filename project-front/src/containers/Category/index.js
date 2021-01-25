@@ -12,8 +12,8 @@ const Category = () => {
       {({ data: { category } }) => {
         return (
           <div>
-            <div className="uk-section">
-              <div className="uk-container uk-container-large">
+            <div>
+              <div>
                 <h1>{category.name}</h1>
                 <Articles articles={category.articles} />
               </div>
