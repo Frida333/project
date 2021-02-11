@@ -1,0 +1,72 @@
+.forum {
+  width: 100%;
+
+}
+.aside {
+  width: 30%;
+
+}
+
+.comments {
+    padding-bottom: 40px;
+    min-height: 100px;
+}
+
+.textarea {
+  width: 250px;
+  height: 100px;
+  background-color: #DCDDD8;
+  border: none;
+
+  cursor: pointer;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.input {
+  width: 250px;
+  height: 30px;
+  background-color: #DCDDD8;
+  border: none;
+
+  cursor: pointer;
+  line-height: 20px;
+  display: flex;
+  color: white;
+  flex-direction: column;
+
+}
+
+.form {
+   display:flex;
+   justify-content: center;
+   width: 70%;
+   padding-top: 40px;
+}
+
+.form input,textarea{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #DCDDD8;
+  border: none;
+  color: black;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  cursor: pointer;
+
+}
+
+.forum h1 {
+  text-align: center;
+  width: 70%;
+  font-family: 'Oswald', sans-serif;
+
+}

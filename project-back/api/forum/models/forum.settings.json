@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "forums",
   "info": {
-    "name": "Forum"
+    "name": "Forum",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -15,6 +16,12 @@
     },
     "body": {
       "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "category": {
+      "type": "string"
     }
   }
 }

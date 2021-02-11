@@ -21,15 +21,14 @@ const Article = () => {
             <h1>{article.title}</h1>
           </div>
             <img
-              id="banner"
-
               src={imageUrl}
               srcSet={imageUrl}
               data-uk-img
+              width="500px"
             />
 
-            <div className="uk-section">
-              <div className="uk-container uk-container-small">
+            <div>
+              <div >
                 <ReactMarkdown source={article.content} />
                 <p>
                   <Moment format="MMM Do YYYY">{article.published_at}</Moment>

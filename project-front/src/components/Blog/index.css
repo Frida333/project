@@ -1,0 +1,41 @@
+
+
+.blogcontainer h1 {
+  text-align: center;
+  width: 70%;
+  font-family: 'Oswald', sans-serif;
+
+}
+.articlecontainer {
+
+  display: flex;
+  padding: 40px;
+}
+
+.border {
+
+
+display: flex;
+justify-content: center;
+}
+
+.bordercontainer {
+margin-left: 225px;
+  width: 40%;
+  border-bottom: 1px solid #3A3426;
+}
+.blogcontainer {
+
+   width: 100%;
+}
+
+.aside {
+  width: 30%;
+
+}
+.blog {
+
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}

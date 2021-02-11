@@ -1,10 +1,11 @@
 import Card from "../Card";
+import "./index.css";
 
 
 
 const Articles = ({ articles }) => {
   return (
-    <div >
+    <div>
       {articles.map((article, i) => {
         return <Card article={article} key={`article__${article.id}`} />;
       })}

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "./index.css";
 
 const Card = ({ article }) => {
   const imageUrl =
@@ -6,23 +7,24 @@ const Card = ({ article }) => {
       ? article.image.url
       : process.env.REACT_APP_BACKEND_URL + article.image.url;
   return (
-    <Link to={`/article/${article.id}`} className="uk-link-reset">
-      <div className="uk-card uk-card-muted">
-        <div className="uk-card-media-top">
+    <Link to={`/article/${article.id}`} >
+       <div className="card">
+        <div >
           <img
             src={imageUrl}
             alt={article.image.url}
-            height="200"
+            width="300px"
           />
         </div>
-        <div className="uk-card-body">
+        <div className="articleinfo" >
 
-          <p id="title" className="uk-text-large">
+
+            Kategori: {article.category.name}
+
+
+          <h2>
             {article.title}
-          </p>
-          <p id="category" className="uk-text-uppercase">
-            {article.category.name}
-          </p>
+          </h2>
         </div>
       </div>
     </Link>

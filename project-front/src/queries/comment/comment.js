@@ -6,7 +6,7 @@ const COMMENT_QUERY = gql`
       id
       name
       body
-
+      email
   }
 `;
 

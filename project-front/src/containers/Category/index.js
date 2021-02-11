@@ -14,7 +14,7 @@ const Category = () => {
           <div>
             <div>
               <div>
-                <h1>{category.name}</h1>
+                
                 <Articles articles={category.articles} />
               </div>
             </div>

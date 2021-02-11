@@ -1,12 +1,16 @@
 
 
-const Comment = ({ forum }) => {
+const Comment = ({ forum}) => {
+
+
   return (
     <div>
-      <p>
+      <div>
         {forum.name}
+      </div>
+      <div>
         {forum.body}
-      </p>
+      </div>
     </div>
   );
 };
